@@ -1,5 +1,4 @@
 import express from 'express';
-import { get } from 'node:http';
 
 const app = express();
 const port = 3000;
