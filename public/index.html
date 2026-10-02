@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Login - World Map Quiz</title>
+</head>
+<body>
+    <main class="auth-container">
+        <form method="post" class="auth-form">
+            <label for="username">Username or email</label>
+            <input type="text" name="username" id="username" required>
+            
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+            
+            <div class="auth-actions">
+                <input type="submit" value="Log In" formaction="/login" formmethod="post"  id="submit">
+                <input type="submit" value="Register" formaction="/users"  formmethod="post" id="submit" class="btn-secondary">
+            </div>
+        </form>
+    </main>
+    <footer>&copy; Yogaprakash 2026</footer>
+</body>
+</html>

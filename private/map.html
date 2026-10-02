@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>World Map Quiz</title>
+</head>
+<body>
+
+    <nav>
+        <form action="/logout" method="post">
+            <button type="submit" class="btn-logout">Log Out</button>
+        </form>
+    </nav>
+
+    <div class="header-container">
+        <h1>World Map Quiz</h1>
+        <div id="score">Score: 0</div>
+    </div>
+
+    <div id="map"></div>
+
+    <div class="quiz-controls">
+        <input id="input" type="text" name="input" placeholder="Type country name..." required autofocus>
+        <button id="submit">Submit Answer</button>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.mjs"></script>
+    
+</body>
+</html>
